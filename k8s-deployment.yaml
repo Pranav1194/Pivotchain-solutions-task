@@ -15,6 +15,7 @@ spec:
       containers:
       - name: hello-world
         image: sawarkar/deploymentappimg:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 ---
