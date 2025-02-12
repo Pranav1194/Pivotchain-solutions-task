@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: sawarkar/deploymentappimg:latest
+        image: sawarkar/deploymentappimg:19
         ports:
         - containerPort: 80
 ---
